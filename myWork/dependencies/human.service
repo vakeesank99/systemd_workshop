@@ -1,0 +1,7 @@
+[Unit]
+Description=This is human service
+
+[Service]
+ExecStart=echo unga bunga
+RemainAfterExit=yes
+

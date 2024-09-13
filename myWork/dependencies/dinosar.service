@@ -1,0 +1,9 @@
+[Unit]
+Description=This is Dinosar service
+Before=human.service
+
+[Service]
+ExecStart=echo rawr
+RemainAfterExit=yes
+
+
